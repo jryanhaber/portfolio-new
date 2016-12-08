@@ -1,27 +1,140 @@
 extends layout
 
+
+
 block content
-  h1 Hackathon Starter
-  p.lead A boilerplate for Node.js web applications.
+  h1 Projects and Works
+  p.lead A portfolio of recent projects 
   hr
   .row
     .col-sm-6
-      h2 Heading
-      p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-      p
-        a.btn.btn-default(href='#', role='button') View details »
+      h2 Filter By Language
+
+        p
+         p
+          a.btn.btn-default.filter(role='button') Chrome_Extensions
+          a.btn.btn-default.filter(role='button') Rails
+          a.btn.btn-default.filter(role='button') SCSS
+          a.btn.btn-default.filter(role='button') NodeJS
+          a.btn.btn-default.filter(role='button') Html
+          a.btn.btn-default.filter(role='button') Bootstrap
+          a.btn.btn-default.filter(role='button') Javascript
+          a.btn.btn-default.filter(role='button') Zapier
+          a.btn.btn-default.filter(role='button') Trello
+          a.btn.btn-default.show_all(role='button') Show All
+
     .col-sm-6
-      h2 Heading
-      p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+      h2 Other Filters
+
+        p
+         p
+          a.btn.btn-default.filter(role='button') Web_Apps
+          a.btn.btn-default.filter(role='button') Active_Projects
+          a.btn.btn-default.filter(role='button') Passion_Projects
+          a.btn.btn-default.filter(role='button') Human_Potential
+          a.btn.btn-default.filter(role='button') NVC
+          a.btn.btn-default.filter(role='button') Communication_Tools
+  
+  hr
+
+  .row
+    .col-sm-6.NodeJS.items.Active_Projects
+      h2 This Portfolio Project
+      p This Simple Portfolio Project is built on Node.js  
+      p Status: In Development
+            p Date: Dec 2016
+
       p
-        a.btn.btn-default(href='#', role='button') View details »
-    .col-sm-6
-      h2 Heading
-      p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+    .col-sm-6.Chrome_Extensions.items
+      h2 Chrome Extension Facebook Friend Finder
+      p What if you could rank your contacts in facebook by how important it is to have them closer, and then automatically invite them to various events with ease?  
+      p Status: On Hold
+      p Progress: Cloned a Chrome Extension and was able to get it to begin interfacing with Facebook's Layout
+      p Date: Nov 2016
+
+
+
+
       p
-        a.btn.btn-default(href='#', role='button') View details »
-    .col-sm-6
-      h2 Heading
-      p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+    .col-sm-6.items.Html.Bootstrap.Javascript.Html.Zapier.Trello.Active_Projects
+      h2 Synthesis Recruiting CRM
+      p I needed to automate a set of tasks for a recruiting company so I built a small CRM that automates most of the tasks associated with day to day communications with clients.
+      p Status: In development, Live and Functional
+      p Date: Ongoing
+
       p
-        a.btn.btn-default(href='#', role='button') View details »
+    .col-sm-6.items.Rails.Web_Apps.SCSS.Active_Projects.Passion_Projects
+      h2 Connect - On Demand Emotional Support App
+      p What if you could click a button and get support on demand affordably in the moments that it matters the most?
+      p Status: In development, functional prototype generated
+      p Tags: Ruby on Rails, Portfolio, Passion Projects
+      p Date: Ongoing
+      p
+
+        a.btn.btn-default(href='http://synthesisrecruiting.com/CRM.html', role='button') See This Project Live »
+      
+
+      p
+    .col-sm-6.items.Rails.Web_Apps.SCSS
+      h2 Sixxer
+      p A Simple Clone of fiverr to learn and demonstrate ruby on rails learning process
+            p Date: Nov 2016
+
+      p
+    .col-sm-6.items.Html.Bootstrap
+      h2 Quick Design Mockup 
+      p Completed a quick design mockup for a client, Responsive Bootstrap Design
+      p Date: Nov 2016
+      p
+        a.btn.btn-default(href='http://synthesisrecruiting.com/core_template.html', role='button') See this mockup »
+
+    .col-sm-6.items.Html.Bootstrap.Web_Apps.Passion_Projects.Human_Potential
+      h2 Coaching Guide 
+      p Created a quick guide to evidence based coaching practice for our team to support 
+      p Date: May 2016
+      p
+        a.btn.btn-default(href='http://synthesisrecruiting.com/core_template.html', role='button') See this mockup »
+
+
+    .col-sm-6.items.Html.Bootstrap.Javascript.NVC.Communication_Tools.Passion_Projects.Web_Apps.Human_Potential
+        h2 Nonviolent Communication Helper 
+        p What if when you are upset or having a difficult moment in relating you could use an app to help get clear about what you are feeling, what you are needing, and to communicate effectively?  Built an app to help with that.
+        p Date: April 2016
+        p
+          a.btn.btn-default(href='Synthesisrecruiting.com/C_HACK/Communication.html', role='button') See this app live »
+
+
+    .col-sm-6.items.Html.Bootstrap.Javascript.NVC.Communication_Tools.Passion_Projects.Human_Potential
+          h2 Self Coaching Web App 
+          p What if you had an app purely dedicated to supporting you in being in deep coherence with your sense of purpose, direction and aspirations in life?  I wanted one, so I built it.  Making this a drag and drop tool for users to create their own easily is a project in consideration. 
+          p Date: April 2016
+          p
+            a.btn.btn-default(href='Synthesisrecruiting.com/C_HACK/Dedication.html', role='button') See this app live »
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
